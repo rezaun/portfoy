@@ -91,3 +91,113 @@ body{
     background-image: linear-gradient(
             83deg, #8230e3, #f9f104);
 }
+.about-box h1 {
+    color: #ffa52f;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.about-box h2{
+    font-weight: 600;
+}
+.about-box p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.about-box a {
+    color: #ffa52f;
+    border: 3px solid #ffa52f;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+/*Service box*/
+.service{
+    margin: 100px auto;
+}
+.service-box h1{
+    color: #ffa52f;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.service-box h2{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.service-box p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.single-service{
+    background-color: #484343;
+    border-radius: 20px;
+    padding: 50px;
+    margin-right: 2px;
+    text-align: center;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+.single-service:hover{
+    background-image: linear-gradient(
+            83deg, #8230e3, #f9f104);
+}
+.single-service:hover i{
+    color: #fff;
+}
+.single-service i{
+    font-size: 48px;
+    margin-bottom: 25px;
+    color: #ffa52f;
+
+}
+.single-service h3{
+    font-weight: 600;
+}
+/*Project CSS*/
+.project{
+    margin: 30px auto;
+}
+.project-box h1{
+    color: #ffa52f;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.single-project{
+    text-align: center;
+}
+.single-project img {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 40px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.single-project img:hover {
+    filter: grayscale(0);
+    transform: translateY(-10px);
+}
+/*expertise section css*/
+.expertise{
+    margin: 70px auto;
+}
+.expertise h1{
+    color: #ffa52f;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.expertise h2{
+    text-align: center;
+    font-weight: 600;
+}
+.expertise p{
+    text-align: center;
+    margin: 10px 0;
+}
+.expertise-box{
+    background-image: url("../images/project/project-four.jpeg");
+    background-repeat: no-repeat;
+}
