@@ -7,9 +7,10 @@ a{
     text-decoration: none;
     color: #fff;
     transition: .5s;
+    font-size: 12px;
 }
 a:hover{
-    color: tomato;
+    color: #ffa52f;
 }
 body{
     color: #fff;
@@ -23,6 +24,18 @@ body{
 }
 .logo-box a{
     color: #fff !important;
+}
+.head-btn{
+    background-color: #ffa52f;
+    transition: 0.5s;
+    border: 2px solid #fff;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.head-btn:hover{
+    background-color: #fff;
+    border: 2px solid #ffa52f;
+    color: #ffa52f;
 }
 .about-left img{
     width: 100%;
@@ -186,7 +199,7 @@ body{
 .expertise h1{
     color: #ffa52f;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .expertise h2{
@@ -195,9 +208,225 @@ body{
 }
 .expertise p{
     text-align: center;
-    margin: 10px 0;
+    margin-bottom: 60px;
+
 }
-.expertise-box{
+.expertise-box-one{
     background-image: url("../images/project/project-four.jpeg");
-    background-repeat: no-repeat;
+    height: 250px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+    position: relative;
+}
+.expertise-box-one h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    font-weight: bold;
+}
+.expertise-box-one p {
+    text-align: left;
+    position: absolute;
+    bottom: -47px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.expertise-box-one:hover{
+    filter: grayscale(0);
+}
+.expertise-box-two{
+    background-image: url("../images/project/project-five.jpeg");
+    height: 250px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+
+}
+.expertise-box-two h3{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    font-weight: bold;
+}
+.expertise-box-two p{
+    text-align: left;
+    position: absolute;
+    bottom: -47px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.expertise-box-two:hover{
+    filter: grayscale(0);
+}
+.expertise-box-three{
+    background-image: url("../images/project/project-two.jpeg");
+    height: 250px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.expertise-box-three h3{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    font-weight: bold;
+}
+.expertise-box-three p{
+    text-align: left;
+    position: absolute;
+    bottom: -47px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.expertise-box-three:hover{
+    filter: grayscale(0);
+}
+.expertise a{
+    color: #ffa52f;
+    border: 3px solid #ffa52f;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    width: 130px;
+    margin: 30px auto;
+}
+/*testimonial section css here*/
+.testimonial{
+    margin: 70px auto;
+}
+.testimonial h1{
+    color: #ffa52f;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.testimonial-carousel{
+    text-align: center;
+}
+.testimonial-text{
+    width: 70%;
+    margin: 0 auto;
+}
+.testimonial-carousel img{
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #ffa52f;
+    margin-top: 2%;
+
+}
+.testimonial-name{
+    margin-top: 1%;
+}
+.testimonial-indicator {
+    position: absolute;
+    left: 0;
+    bottom: -38px;
+    right: 0;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: invert(0) grayscale(0);
+}
+/*Contact us section*/
+.contact-us{
+    margin: 100px auto;
+}
+.contact-us h1{
+    color: #ffa52f;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-form input{
+    border: 1px solid #ffa52f;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: #fff;
+
+}
+.contact-form textarea{
+    border: 1px solid #ffa52f;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: #fff;
+}
+.contact-form input:focus {
+    background-color: transparent;
+    border: 1px solid #ffa52f;
+    color: #fff;
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: #fff;
+}
+.contact-form textarea{
+    resize: none;
+    width: 635px;
+    padding: 10px;
+}
+.contact-btn{
+    background-color: #ffa52f;
+    font-weight: bold;
+    border-color: #ffa52f;
+
+}
+.contact-btn:hover{
+    background-image: linear-gradient(
+            83deg, #8230e3, #f9f104);
+    border: 1px solid #fff;
+}
+.contact-btn:focus {
+    color: #fff;
+    background-color: #ffa52f;
+    border-color: #ffa52f;
+    box-shadow: 0 0 0 .0rem rgba(0,0,0,0);
+}
+/*client section css here*/
+.our-clients{
+    margin: 100px auto;
+}
+.our-clients h1{
+    color: #ffa52f;
+    font-weight: 600;
+    text-align: center;
+}
+.our-clients h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.single-client img{
+    filter: grayscale(50%);
+    transition: 0.5s;
+}
+.single-client img:hover{
+    filter: grayscale(0);
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul {
+    padding-left: 0;
+}
+.footer-social-section a{
+    background-color: #ffa52f;
+    border-radius: 50%;
+    height: 37px;
+    width: 37px;
+    padding: 8px 13px;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    transition: 0.5s;
+
+}
+.footer-social-section a:hover{
+    background-color: #fff;
+    color: #ffa52f;
 }
